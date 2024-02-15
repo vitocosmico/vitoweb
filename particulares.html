@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal - Peumayen</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="peumayen.html">Peumayen</a></li>
+                    <li><a href="tiktok.html">Economía Personal</a></li>
+                    <li><a href="economia.html">Clases Particulares</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Sección Clases Particulares -->
+<section id="clases-particulares" class="content-section">
+    <h2>Clases Particulares</h2>
+    
+    <div class="class-schedule">
+        <h3>Horario de Clases</h3>
+        <ul id="classList">
+            <!-- Aquí se añadirán las clases -->
+        </ul>
+    </div>
+    
+    <div class="add-class-form">
+        <h3>Añadir/Editar Clase</h3>
+        <input type="text" id="classTitle" placeholder="Título de la Clase">
+        <input type="date" id="classDate">
+        <input type="time" id="classTime">
+        <button onclick="addClass()">Guardar Clase</button>
+    </div>
+</section>
+
+    
+    
+    <footer>
+        <p>&copy; 2024 Peumayen. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

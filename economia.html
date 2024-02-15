@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal - Peumayen</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="peumayen.html">Peumayen</a></li>
+                    <li><a href="tiktok.html">tiktok</a></li>
+                    <li><a href="particulares.html">Clases Particulares</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Sección Economía Personal -->
+<section id="economia-personal" class="content-section">
+    <h2>Economía Personal</h2>
+    
+    <div class="financial-summary">
+        <h3>Resumen Financiero</h3>
+        <!-- Ejemplo de visualización de resumen -->
+        <p>Ingresos del mes: <span id="monthlyIncome">$0</span></p>
+        <p>Gastos del mes: <span id="monthlyExpenses">$0</span></p>
+        <p>Balance del mes: <span id="monthlyBalance">$0</span></p>
+    </div>
+    
+    <div class="add-financial-record">
+        <h3>Añadir Registro Financiero</h3>
+        <input type="text" id="description" placeholder="Descripción">
+        <input type="number" id="amount" placeholder="Cantidad">
+        <select id="type">
+            <option value="income">Ingreso</option>
+            <option value="expense">Gasto</option>
+        </select>
+        <button onclick="addFinancialRecord()">Añadir</button>
+    </div>
+</section>
+
+    
+    
+    <footer>
+        <p>&copy; 2024 Peumayen. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
